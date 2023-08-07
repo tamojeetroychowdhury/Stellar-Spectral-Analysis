@@ -1,12 +1,12 @@
-## Python Assignment
+## Stellar Spectroscopic Analysis
 
-What to do:
+The notebooks involve a study of spectra obtained from various telescopes (primarily SDSS, FEROS and UVES spectrometers) of the following targets:
 
-1. Make a private repository, and add the Jupyter Notebook and data files
-2. Fill in the required code to complete the Problem_Statement Jupyter Notebook.
-3. Push the notebook to the main branch of your repository.
-4. After the deadline, make your repository public (you will be given a reminder)
+1. Stars from the 47 Tucanae a.k.a. NGC 104 cluster
+2. Stars from Messier 3 cluster
+3. O and B type stars from Antenna-2 galaxy
+4. Supernova SN2004gt
 
-Note : If you are unfamiliar with Python and/or Jupyter notebooks, you may find these tutorials by us useful - https://github.com/krittikaiitb/tutorials. 
+The notebooks are somewhat messy since it is a self-driven project. Data of SDSS was from astroquery.SDSS (https://astroquery.readthedocs.io/en/latest/sdss/sdss.html), while other telescopes data was obtained from ESO Archive (http://archive.eso.org/scienceportal/home).
 
-We also conducted sessions on Python for the computational astronomy bootcamp (in which we covered the first four notebooks), the recordings of which are available on the MS Teams link - https://rb.gy/uge8gk . You will also of course find resources on everything needed for this online as well, so keep googling if you're stuck at any point!
+Primary libraries used are scipy and specutils. 
